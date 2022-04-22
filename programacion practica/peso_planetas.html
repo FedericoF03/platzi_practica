@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+<meta charset="utf-8">
+ <head>
+   <title>Pesador avanzado</title>
+  <style type="text/css">
+body
+{
+  background-image: url("sujeto_espacial.png");
+  background-size: 220% 220%;
+}
+p
+{
+  color: white;
+}
+h1
+{
+  background-image: url("estrellas.png")
+}
+  </style>
+ </head>
+ <body>
+   <h1>Calculadora de peso interestelar...</h1>
+   <p>Hacete el gracioso y te vas a tener que tragar un trolleo aviso... pone bien los datos sino tira un aleatorio y apreta borrar.</p>
+   <p>planetas disponibles por el momento: Luna, Marte, Saturno</p>
+   <strong><p>Elegi el planeta del que quieres tu peso <br> (Recuerda la primera letra del planeta en mayuscula)</p></strong>
+    <input type="text" value="" id="planetas_texto" /> <br />
+   <strong><p>Cuanto pesas?</p></strong>
+    <input type="text" value="" id="peso_texto" />
+     <input type="button"  value="Apreta para saber tu peso" id="boton_peso" />
+     <br>
+ <input type="button"  value="Dale a ver que planeta te toca ;D" id="boton_aleatorio" />
+ <br>
+   <p id="error" />
+  <script type="text/javascript"></script>
+    <script src="peso_planetas_constructor.js"></script>
+     <script src="codigodepeso_planetas.js"></script>
+ </body>
+</html>
